@@ -454,13 +454,15 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="如何使用hexo搭建自己个人博客"><a href="#如何使用hexo搭建自己个人博客" class="headerlink" title="如何使用hexo搭建自己个人博客"></a>如何使用hexo搭建自己个人博客</h2><h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></tbody></table></figure>
-
-<h2 id="创建Blog目录"><a href="#创建Blog目录" class="headerlink" title="创建Blog目录"></a>创建Blog目录</h2><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder-name&gt;  <span class="comment">// 初始化项目目录</span></span><br><span class="line">cd &lt;folder-name&gt;  <span class="comment">// 进入目录</span></span><br><span class="line">npm install <span class="comment">// 安装依赖</span></span><br></pre></td></tr></tbody></table></figure>
-<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> &lt;article-name&gt; <span class="comment">// 新建文章</span></span><br></pre></td></tr></tbody></table></figure>
+                <h2 id="如何使用hexo搭建自己个人博客"><a href="#如何使用hexo搭建自己个人博客" class="headerlink" title="如何使用hexo搭建自己个人博客"></a>如何使用hexo搭建自己个人博客</h2><h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><pre class=" language-javascript"><code class="language-javascript">npm install <span class="token operator">-</span>g hexo<span class="token operator">-</span>cli</code></pre>
+<h2 id="创建Blog目录"><a href="#创建Blog目录" class="headerlink" title="创建Blog目录"></a>创建Blog目录</h2><pre class=" language-javascript"><code class="language-javascript">hexo init <span class="token operator">&lt;</span>folder<span class="token operator">-</span>name<span class="token operator">></span>  <span class="token comment" spellcheck="true">// 初始化项目目录</span>
+cd <span class="token operator">&lt;</span>folder<span class="token operator">-</span>name<span class="token operator">></span>  <span class="token comment" spellcheck="true">// 进入目录</span>
+npm install <span class="token comment" spellcheck="true">// 安装依赖</span></code></pre>
+<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><pre class=" language-javascript"><code class="language-javascript">hexo <span class="token keyword">new</span> <span class="token operator">&lt;</span>article<span class="token operator">-</span>name<span class="token operator">></span> <span class="token comment" spellcheck="true">// 新建文章</span></code></pre>
 <p>文章编辑使用markdown语法即可</p>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><figure class="highlight javascript"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean <span class="comment">// 清除已经编译的文件 </span></span><br><span class="line">hexo g <span class="comment">// 重新编译当前的文件</span></span><br><span class="line">hexo d <span class="comment">// 提交代码</span></span><br></pre></td></tr></tbody></table></figure>
-
+<h2 id=""><a href="#" class="headerlink" title=""></a></h2><pre class=" language-javascript"><code class="language-javascript">hexo clean <span class="token comment" spellcheck="true">// 清除已经编译的文件 </span>
+hexo g <span class="token comment" spellcheck="true">// 重新编译当前的文件</span>
+hexo d <span class="token comment" spellcheck="true">// 提交代码</span></code></pre>
 <h2 id="注意"><a href="#注意" class="headerlink" title="注意:"></a>注意:</h2><p>1.生产仓库的时候,名字必须为<gitname>.github.io<br>2.找到当前仓库的Settings —》 GitHub Pages —》 Source<br>把你提交的代码的分支选中，类似于域名绑定web时的目录。</gitname></p>
 
             </div>
